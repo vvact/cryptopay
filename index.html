@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoPay | Secure Crypto Payment Gateway</title>
+
+    <!-- Temporary favicon from a free source -->
+    <link
+      rel="icon"
+      href="https://cryptologos.cc/favicon.ico"
+      type="image/x-icon"
+    />
+
+
+     <!-- SEO Meta Tags -->
+     <meta
+     name="description"
+     content="Accept cryptocurrency payments easily with CryptoPay. Secure, fast and developer-friendly crypto payment gateway for your business."
+   />
+   <meta
+     name="keywords"
+     content="cryptopay, bitcoin payments, ethereum payments, crypto gateway, cryptocurrency payments"
+   />
+
+   <meta name="author" content="CryptoPay" />
+
+   <!-- Open Graph Meta Tags -->
+   <meta
+   property="og:title"
+   content="CryptoPay | Secure Crypto Payment Gateway"
+ />
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader-wrapper" aria-hidden="true">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Cookie Consent Banner -->
+    <div class="cookie-consent" aria-live="polite">
+        <div class="cookie-content">
+            <p>We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.</p>
+            <div class="cookie-buttons">
+                <button id="accept-cookies" class="cookie-button">Accept</button>
+                <button id="decline-cookies" class="cookie-button secondary">Decline</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="logo-text">CryptoPay</span>
+                <span class="logo-icon">₿</span>
+            </a>
+            <button class="menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#supported-cryptos">Supported Cryptos</a>
+                <a href="#signup" class="cta-button">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1>Accept Crypto Payments Easily</h1>
+                <p>The most secure and developer-friendly cryptocurrency payment gateway for your business. Start accepting Bitcoin, Ethereum, and other cryptocurrencies today.</p>
+                <div class="hero-actions">
+                    <a href="#signup" class="cta-button">Start Free Trial</a>
+                    <button class="video-button" aria-label="Watch demo video">
+                        <i class="fas fa-play"></i> Watch Demo
+                    </button>
+                </div>
+                <div class="trust-badges">
+                    <div class="badge" aria-hidden="true">
+                        <i class="fas fa-shield-alt"></i> PCI DSS Compliant
+                    </div>
+                    <div class="badge" aria-hidden="true">
+                        <i class="fas fa-lock"></i> Bank-Level Security
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="features">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Powerful Features</h2>
+                    <p>Everything you need to start accepting cryptocurrency payments</p>
+                </div>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Instant Settlements</h3>
+                        <p>Receive payments instantly with our lightning-fast settlement system. No waiting for blockchain confirmations.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Bank-Level Security</h3>
+                        <p>Military-grade encryption and multi-signature wallets to keep your funds secure at all times.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-exchange-alt"></i>
+                        </div>
+                        <h3>Auto Conversion</h3>
+                        <p>Automatically convert crypto to fiat to protect against volatility. Or keep it in crypto.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-plug"></i>
+                        </div>
+                        <h3>Easy Integration</h3>
+                        <p>Simple APIs and plugins for all major e-commerce platforms. Get set up in minutes.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Real-Time Analytics</h3>
+                        <p>Comprehensive dashboard with real-time reporting and analytics for all your transactions.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Global Payments</h3>
+                        <p>Accept payments from anywhere in the world with no borders or restrictions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Supported Cryptos -->
+        <section class="cryptos" id="supported-cryptos">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Supported Cryptocurrencies</h2>
+                    <p>We support all major cryptocurrencies and stablecoins</p>
+                </div>
+                <div class="crypto-grid">
+                    <div class="crypto-item">
+                        <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.png" alt="Bitcoin" class="crypto-icon">
+                        <span>Bitcoin (BTC)</span>
+                    </div>
+                    <div class="crypto-item">
+                        <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" alt="Ethereum" class="crypto-icon">
+                        <span>Ethereum (ETH)</span>
+                    </div>
+                    <div class="crypto-item">
+                        <img src="https://cryptologos.cc/logos/usd-coin-usdc-logo.png" alt="USDC" class="crypto-icon">
+                        <span>USD Coin (USDC)</span>
+                    </div>
+                    <div class="crypto-item">
+                        <img src="https://cryptologos.cc/logos/tether-usdt-logo.png" alt="Tether" class="crypto-icon">
+                        <span>Tether (USDT)</span>
+                    </div>
+                    <div class="crypto-item">
+                        <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png" alt="BNB" class="crypto-icon">
+                        <span>BNB (BNB)</span>
+                    </div>
+                    <div class="crypto-item">
+                        <img src="https://cryptologos.cc/logos/solana-sol-logo.png" alt="Solana" class="crypto-icon">
+                        <span>Solana (SOL)</span>
+                    </div>
+                    <div class="crypto-item">
+                        <img src="https://cryptologos.cc/logos/xrp-xrp-logo.png" alt="XRP" class="crypto-icon">
+                        <span>XRP (XRP)</span>
+                    </div>
+                    <div class="crypto-item">
+                        <img src="https://cryptologos.cc/logos/cardano-ada-logo.png" alt="Cardano" class="crypto-icon">
+                        <span>Cardano (ADA)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section class="how-it-works" id="how-it-works">
+            <div class="container">
+                <div class="section-title">
+                    <h2>How It Works</h2>
+                    <p>Get started with CryptoPay in just 3 simple steps</p>
+                </div>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Create Your Account</h3>
+                            <p>Sign up for a free CryptoPay account and complete the quick verification process.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Integrate With Your Website</h3>
+                            <p>Use our simple API, plugins, or hosted checkout to start accepting crypto payments.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Start Accepting Payments</h3>
+                            <p>That's it! You're now ready to accept cryptocurrency payments from customers worldwide.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing -->
+        <section class="pricing" id="pricing">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Simple, Transparent Pricing</h2>
+                    <p>No hidden fees. Pay only for what you use.</p>
+                </div>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h3>Starter</h3>
+                        <div class="price">0.5% <span>per transaction</span></div>
+                        <ul class="pricing-features">
+                            <li>Up to $10,000/month</li>
+                            <li>Basic Support</li>
+                            <li>10 Cryptocurrencies</li>
+                            <li>Standard Settlement</li>
+                        </ul>
+                        <a href="#signup" class="cta-button">Get Started</a>
+                    </div>
+                    <div class="pricing-card popular">
+                        <div class="popular-badge">MOST POPULAR</div>
+                        <h3>Business</h3>
+                        <div class="price">0.3% <span>per transaction</span></div>
+                        <ul class="pricing-features">
+                            <li>Up to $100,000/month</li>
+                            <li>Priority Support</li>
+                            <li>All Cryptocurrencies</li>
+                            <li>Faster Settlement</li>
+                            <li>Advanced Reporting</li>
+                        </ul>
+                        <a href="#signup" class="cta-button">Get Started</a>
+                    </div>
+                    <div class="pricing-card">
+                        <h3>Enterprise</h3>
+                        <div class="price">Custom <span>pricing</span></div>
+                        <ul class="pricing-features">
+                            <li>Unlimited Volume</li>
+                            <li>24/7 Dedicated Support</li>
+                            <li>All Features Included</li>
+                            <li>Instant Settlement</li>
+                            <li>Custom Solutions</li>
+                        </ul>
+                        <a href="#contact" class="cta-button">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section" id="signup">
+            <div class="container">
+                <h2>Ready to Start Accepting Crypto?</h2>
+                <p>Join thousands of businesses already using CryptoPay to accept cryptocurrency payments with ease.</p>
+                <a href="#signup" class="cta-button">Start Free Trial</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-about">
+                        <a href="#" class="footer-logo">CryptoPay</a>
+                        <p>The most secure and developer-friendly cryptocurrency payment gateway for your business.</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Product</h3>
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#supported-cryptos">Supported Cryptos</a></li>
+                            <li><a href="#">API Documentation</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Legal</h3>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                            <li><a href="#">Compliance</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>&copy; <span id="current-year">2023</span> CryptoPay. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Dark Mode Toggle Button (added via JavaScript) -->
+    
+    <script src="script.js"></script>
+</body>
+</html>
